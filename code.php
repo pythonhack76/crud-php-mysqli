@@ -1,6 +1,5 @@
 <?php 
 session_start();
-
 require 'dbcon.php';
 
 if(isset($_POST['delete_student']))
@@ -40,7 +39,7 @@ if(isset($_POST['update_student']))
 
     echo $name; 
 
-    $query = "UPDATE studenti SET name='$name', email='$email', phone='$phone', course='$course' WHERE id='$student_id";
+    $query = "UPDATE studenti SET name='$name', email='$email', phone='$phone', course='$course' WHERE id='$student_id'";
 
     $query_run = mysqli_query($con, $query);
 
