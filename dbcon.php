@@ -1,5 +1,5 @@
 <?php
-
+//upload su restart.lucarulvoni.it
 
 $con = mysqli_connect("localhost", "root", "root", "crudpdo");
 
