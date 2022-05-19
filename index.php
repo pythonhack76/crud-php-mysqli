@@ -70,8 +70,10 @@
                 <td>
                     <a href="view.php?id=<?= $studente['id']; ?>" class="btn btn-info btn-sm">Vedi</a>
                     <a href="edit.php?id=<?= $studente['id']; ?>" class="btn btn-success btn-sm">Edita</a>
-                    <a href="delete.php?id=<?= $studente['id']; ?>" class="btn btn-danger btn-sm">Cancella</a>
-                </td>
+                    <form action="code.php" method="POST" class="d-inline">                 
+            
+                    <button type="submit" name="delete_student" value="<?=$studente['id']; ?>" class="btn btn-danger btn-sm">Cancella</button>
+                      </form>  </td>
             </tr>
                     <?php
                 }

@@ -14,7 +14,7 @@ session_start();
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Aggiungi Studente</title>
   </head>
   <body>
    <div class="container mt-5">
@@ -26,6 +26,9 @@ session_start();
            <div class="col-md-12">
                <div class="card">
                    <div class="card-header">
+                   <h4>
+                           <a href="index.php" class="btn btn-primary float-end mt-2">FrontEnd</a>
+                       </h4>
                        <h4>Aggiungi Studente
                            <a href="index.php" class="btn btn-danger float-end">Indietro</a>
                        </h4>
